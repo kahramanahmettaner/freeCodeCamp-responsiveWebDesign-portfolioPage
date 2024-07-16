@@ -8,8 +8,9 @@
 </head>
 <body>
 
-    <header>
-        <nav id="navbar">
+    <!-- Used navbar id for header element as it only passes the test if #navbar has position: fixed -->
+    <header id="navbar">
+        <nav>
             <ul>
                 <li>
                     <a href="#welcome-section">About</a>
@@ -40,7 +41,7 @@
 
             <ul id="project-tiles-container">
                 <li>
-                    <a href="https://kahramanprojects.pythonanywhere.com/survey-form" target="_blank">
+                    <a class="project-tile" href="https://kahramanprojects.pythonanywhere.com/survey-form" target="_blank">
                         <img 
                             src="/assets/surveyForm.png" 
                             alt="Survey Form"
@@ -52,7 +53,7 @@
                 </li>
 
                 <li>
-                    <a href="https://kahramanprojects.pythonanywhere.com/tribute-page" target="_blank">
+                    <a class="project-tile" href="https://kahramanprojects.pythonanywhere.com/tribute-page" target="_blank">
                         <img 
                             src="/assets/tributePage.png" 
                             alt="Tribute Page"
@@ -63,7 +64,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="https://kahramanprojects.pythonanywhere.com/documentation-page" target="_blank">
+                    <a class="project-tile" href="https://kahramanprojects.pythonanywhere.com/documentation-page" target="_blank">
                         <img 
                             src="/assets/documentationPage.png" 
                             alt="Tribute Page"
@@ -75,7 +76,7 @@
                 </li>
 
                 <li>
-                    <a href="" target="_blank">
+                    <a class="project-tile" href="https://kahramanprojects.pythonanywhere.com/product-page" target="_blank">
                         <img
                             src="/assets/productPage.png" 
                             alt="Survey Form"
@@ -87,7 +88,7 @@
                 </li>
 
                 <li>
-                    <a href="">
+                    <a class="project-tile" href="https://kahramanprojects.pythonanywhere.com">
                         <img 
                             src="/assets/exampleProject.jpg" 
                             alt="Example Project"
@@ -99,13 +100,13 @@
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a class="project-tile" href="https://kahramanprojects.pythonanywhere.com">
                         <img 
                             src="/assets/exampleProject.jpg" 
                             alt="Example Project"
                         >
                         <div class="project-name">
-                            <p><span class="hover-text">< </span>Example Projects<span class="hover-text"> /></span></p>
+                            <p><span class="hover-text">< </span>Example Project<span class="hover-text"> /></span></p>
                         </div>
                     </a>
                 </li>
